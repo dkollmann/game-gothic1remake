@@ -19,7 +19,7 @@ import { luaModReducer } from './reducers/luaReducer';
 
 // IDs for different stores and nexus
 import { 
-  EPIC_ID, STEAM_ID, GAME_ID, GAME_NAME, EXECUTABLE, MODSFOLDER_PATH, 
+  EPIC_ID, STEAM_ID, GOG_ID, GAME_ID, GAME_NAME, EXECUTABLE, MODSFOLDER_PATH, 
   MOVIESMOD_PATH, IGNORE_CONFLICTS, IGNORE_DEPLOY, STOP_PATTERNS,
   UEPROJECTNAME, GAME_FOLDER_STEAM, GAME_FOLDER_EPIC
 } from './common';
@@ -115,6 +115,7 @@ function main(context: types.IExtensionContext) {
     details: {
       ["SteamAppId"]: parseInt(STEAM_ID, 10),
       ["EpicAppId"]: EPIC_ID,
+      ["gogAppId"]: GOG_ID,
       stopPatterns: STOP_PATTERNS,
       ignoreDeploy: IGNORE_DEPLOY,
       ignoreConflicts: IGNORE_CONFLICTS
@@ -446,6 +447,7 @@ async function findGame() {
     const game: types.IGameStoreEntry = await util.GameStoreHelper.findByAppId([
       EPIC_ID,
       STEAM_ID,
+      GOG_ID,
     ]);
     return Promise.resolve(game.gamePath);
   } catch (error) {

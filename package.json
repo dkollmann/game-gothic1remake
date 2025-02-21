@@ -1,14 +1,14 @@
 {
-  "name": "aliensdarkdescent",
+  "name": "gothic1remake",
   "version": "0.3.5",
-  "description": "Vortex Extension for Aliens: Dark Descent",
+  "description": "Vortex Extension for Gothic 1 Remake",
   "author": "lordvoldem0rt & dkollmann",
   "private": true,
   "main": "./dist/index.ts",
   "type": "module",
   "config": {
-    "extensionName": "Game: Aliens: Dark Descent",
-    "issueTracker": "https://github.com/dkollmann/game-aliensdarkdescent/issues"
+    "extensionName": "Game: Gothic Remake",
+    "issueTracker": "https://github.com/dkollmann/game-gothic1remake/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

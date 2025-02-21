@@ -1,13 +1,14 @@
 import * as path from 'path';
 
-export const GAME_ID = 'aliensdarkdescent';
-export const GAME_NAME = "Aliens: Dark Descent";
-export const GAME_FOLDER_STEAM = "AliensDarkDescent";
-export const GAME_FOLDER_EPIC = "AliensDarkDescent";
+export const GAME_ID = 'gothic1remake';
+export const GAME_NAME = "Gothic 1 Remake";
+export const GAME_FOLDER_STEAM = "Gothic_1_Remake";
+export const GAME_FOLDER_EPIC = "Gothic_1_Remake";
 export const EXECUTABLE = "AliensDarkDescentGameSteam-Win64-Shipping.exe"; // path to executable, relative to game root
 export const UEPROJECTNAME = "ASF";  // the name of the game project
 export const EPIC_ID = "";
-export const STEAM_ID = "1150440";
+export const STEAM_ID = "1297900";
+export const GOG_ID = "1537831577";
 
 export const UE4SSMODURL = "https://www.nexusmods.com/hogwartslegacy/mods/942";
 

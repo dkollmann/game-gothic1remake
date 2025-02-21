@@ -1,6 +1,6 @@
-# Vortex Extension for Aliens: Dark Descent
+# Vortex Extension for Gothic 1 Remake
 
-This is an extension for [Vortex](https://www.nexusmods.com/about/vortex/) to add support for Aliens: Dark Descent. This is available for the PC on [Steam](https://store.steampowered.com/app/1150440/Aliens_Dark_Descent/) and [Epic](https://store.epicgames.com/de/p/aliens-dark-descent).
+This is an extension for [Vortex](https://www.nexusmods.com/about/vortex/) to add support for Gothic 1 Remake. This is available for the PC on [Steam](https://store.steampowered.com/app/1297900/Gothic_1_Remake/) and [GOG](https://www.gog.com/en/game/gothic_1_remake).
 
 # Features
 
@@ -20,15 +20,15 @@ This extension requires Vortex >= 1.7.5. To install, click the Vortex button at 
 
 You can also manually install it by downloading the main file and dragging it into the 'drop zone' labelled Drop File(s) in the Extensions tab at the bottom right.
 
-Afterwards, restart Vortex and you can begin installing supported Aliens: Dark Descent mods with Vortex.
+Afterwards, restart Vortex and you can begin installing supported Gothic 1 Remake mods with Vortex.
 
 If updating an extension, migration occurs that purges your mods folder and reinstalls any mods.
 
 # Game detection
 
-The Aliens: Dark Descent game extension enables Vortex to automatically locate installs from the Steam and Epic apps.
+The Gothic 1 Remake game extension enables Vortex to automatically locate installs from the Steam and Epic apps.
 
-It is also possible to manually set the game folder if the auto detection doesn't find the correct installation. A valid Aliens: Dark Descent game folder contains:
+It is also possible to manually set the game folder if the auto detection doesn't find the correct installation. A valid Gothic 1 Remake game folder contains:
 
 - `AliensDarkDescentGameSteam-Win64-Shipping.exe`
 - `/Engine`
@@ -66,7 +66,7 @@ The load order section will also detect mods installed from the Steam Workshop a
 <!--- [Source Code (GitHub)](https://github.com/insomnious/game-halothemasterchiefcollection)-->
 
 - [Download the Extension (Nexus Mods)](https://www.nexusmods.com/site/mods/520)
-- [Mods for Aliens: Dark Descent (Nexus Mods)](https://www.nexusmods.com/hogwartslegacy)
+- [Mods for Gothic 1 Remake (Nexus Mods)](https://www.nexusmods.com/hogwartslegacy)
 - [Download Vortex (Nexus Mods)](https://www.nexusmods.com/about/vortex/)
 - [Vortex Knowledge Base (Nexus Mods)](https://wiki.nexusmods.com/index.php/Category:Vortex)
 
